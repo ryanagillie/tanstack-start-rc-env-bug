@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    /** Type Checking {@link https://www.typescriptlang.org/tsconfig#Type_Checking_6248} */
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+    /** Modules {@link https://www.typescriptlang.org/tsconfig#Modules_6244} */
+    "baseUrl": ".",
+    "module": "preserve",
+    "paths": {
+      "~/*": [
+        "src/*"
+      ]
+    },
+    "resolveJsonModule": true,
+    /** Emit {@link https://www.typescriptlang.org/tsconfig#Emit_6246} */
+    "noEmit": true,
+    /** JavaScript Support {@link https://www.typescriptlang.org/tsconfig#JavaScript_Support_6247} */
+    "allowJs": true,
+    "checkJs": true,
+    /** Interop Constraints {@link https://www.typescriptlang.org/tsconfig#Interop_Constraints_6252} */
+    "erasableSyntaxOnly": true,
+    "isolatedModules": true,
+    /** Language and Environment {@link https://www.typescriptlang.org/tsconfig#Language_and_Environment_6254} */
+    "jsx": "react-jsx",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "target": "esnext",
+    /** Projects {@link https://www.typescriptlang.org/tsconfig#Projects_6255} */
+    "incremental": true,
+    /** Completeness {@link https://www.typescriptlang.org/tsconfig#Completeness_6257} */
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
